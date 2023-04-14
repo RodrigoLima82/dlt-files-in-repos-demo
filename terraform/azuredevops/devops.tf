@@ -11,7 +11,7 @@ resource "azuredevops_git_repository" "repository" {
   initialization {
     init_type   = "Import"
     source_type = "Git"
-    source_url  = "https://github.com/alexott/dlt-files-in-repos-demo"
+    source_url  = "https://github.com/RodrigoLima82/dlt-files-in-repos-demo"
   }
 }
 
