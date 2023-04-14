@@ -20,7 +20,7 @@ print(f"Loading data from {json_path}")
 # COMMAND ----------
 
 @dlt.table(
-   comment="The raw wikipedia clickstream dataset, ingested from /databricks-datasets."
+   comment="The raw wikipedia clickstream dataset, ingested from /databricks-datasets. New comment Rodrigo"
 )
 def clickstream_raw():
   return spark.read.format("json").load(json_path)
